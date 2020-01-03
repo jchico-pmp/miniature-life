@@ -319,6 +319,10 @@ html {
   height: 75vh;
 }
 
+.we-offer {
+  height: 500px;
+}
+
 .gallery {
   width: 100%;
   position: absolute;
@@ -10600,7 +10604,7 @@ h3 {
 }
 
 .burgerZ {
-  height: 30px;
+  height: 40px;
 }
 
 .navbar-toggler {
@@ -10614,7 +10618,7 @@ h3 {
 
 /*media queries*/
 /*iphone4 styling*/
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 330px) and (orientation: portrait) {
   .phraseX {
     display: none;
   }
@@ -10626,6 +10630,22 @@ h3 {
 
   #offer {
     padding-top: 50px;
+  }
+
+  .navbar-collapse {
+    height: 100vh;
+  }
+
+  .nav-item {
+    margin: 15px 0;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .navbar-icons {
+    height: 2rem;
   }
 
   .buttonZX {
@@ -10650,7 +10670,7 @@ h3 {
   }
 }
 /*mobile phone styling*/
-@media only screen and (min-width: 331px) and (max-width: 400px) {
+@media only screen and (min-width: 331px) and (max-width: 400px) and (orientation: portrait) {
   .phraseZ {
     display: none;
   }
@@ -10663,14 +10683,51 @@ h3 {
   .logoZ {
     width: 75%;
   }
+
+  .navbar-collapse {
+    height: 100vh;
+  }
+
+  .nav-item {
+    margin: 25px 0;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .navbar-icons {
+    height: 2rem;
+  }
 }
 /*tablet styling*/
-@media only screen and (min-width: 401px) and (max-width: 1024px) {
+@media only screen and (min-width: 401px) and (max-width: 1024px) and (orientation: portrait) {
   .phraseZ {
     display: none;
   }
 
   .copyrightZ {
+    display: none;
+  }
+
+  .navbar-collapse {
+    height: 100vh;
+  }
+
+  .nav-item {
+    margin: 25px 0;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .navbar-icons {
+    height: 2rem;
+  }
+}
+@media only screen and (max-width: 760px) and (orientation: landscape) {
+  .paraZ {
     display: none;
   }
 }

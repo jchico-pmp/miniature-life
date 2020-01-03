@@ -368,6 +368,10 @@ html {
 
 }
 
+.we-offer {
+  height: 500px;
+}
+
 
 .gallery {
 	width: 100%;
@@ -469,7 +473,7 @@ html {
 }
 
 .burgerZ {
-	height:30px;
+	height:40px;
 }
 
  .navbar-toggler {
@@ -485,7 +489,7 @@ html {
 
 /*iphone4 styling*/
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 330px) and (orientation: portrait) {
   .phraseX {
     display: none;
   }
@@ -501,6 +505,21 @@ html {
 
 }
 
+ .navbar-collapse {
+          height: 100vh;
+      }
+
+      .nav-item {
+          margin: 15px 0;
+      }
+
+      .nav-link {
+          font-size: 1.5rem;
+      }
+
+      .navbar-icons {
+        height: 2rem;
+      }
 
 
 
@@ -534,27 +553,43 @@ html {
 
 
 /*mobile phone styling*/
-@media only screen and (min-width: 331px) and (max-width: 400px) {
+@media only screen and (min-width: 331px) and (max-width: 400px) and (orientation: portrait) {
 	
-	.phraseZ {
-		display: none;
-	}
+    	.phraseZ {
+    		display: none;
+    	}
 
-	.landZ {
-	margin-top: 0px;
-	padding-top: 80px;
+    	.landZ {
+    	margin-top: 0px;
+    	padding-top: 80px;
 
-}
+    }
 
-	.logoZ {
-		width: 75%;
-	}
+    	.logoZ {
+    		width: 75%;
+    	}
+
+        .navbar-collapse {
+          height: 100vh;
+      }
+
+      .nav-item {
+          margin: 25px 0;
+      }
+
+      .nav-link {
+          font-size: 1.5rem;
+      }
+
+      .navbar-icons {
+        height: 2rem;
+      }
 
 }
 
 /*tablet styling*/
 
-@media only screen and (min-width: 401px) and (max-width: 1024px) {
+@media only screen and (min-width: 401px) and (max-width: 1024px) and (orientation: portrait) {
 
 
      .phraseZ {
@@ -562,9 +597,31 @@ html {
      	}
 
 
-.copyrightZ {
-	display: none;
-}
-	
+      .copyrightZ {
+      	display: none;
+      }
+
+       .navbar-collapse {
+          height: 100vh;
+      }
+
+      .nav-item {
+          margin: 25px 0;
+      }
+
+      .nav-link {
+          font-size: 1.5rem;
+      }
+
+      .navbar-icons {
+        height: 2rem;
+      }
+      	
 }
 
+@media only screen and (max-width: 760px) and (orientation: landscape) {
+  .paraZ,
+     {
+    display: none;
+  }
+}
